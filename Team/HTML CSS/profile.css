@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+}
+
+.new-users {
+    background-color: seashell;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 900px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Thông-tin-người-dùng h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.Người-dùng {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Thông-tin-người-dùng {
+    width: 100px;
+    text-align: center;
+}
+
+.Ảnh-người-dùng img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 13px;
+}
+
+.Thông-tin h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.Thông-tin p {
+    margin: 0;
+    font-size: 12px;
+    color: #777;
+}
+
+.Thêm-người-dùng{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #333;
+}
+
+.Thêm-người-dùng .Thông-tin h3,
+.Thêm-người-dùng .Thông-tin p {
+    margin-top: 10px;
+}
+
+.plus-icon {
+    font-size: 24px;
+    margin-left: 5px;
+    color: #333;
+}
