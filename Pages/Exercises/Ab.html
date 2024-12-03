@@ -4,34 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abs - Exercises</title>
-    <link rel="stylesheet" href="/Fitness/node_modules/bootstrap/dist/css/bootstrap.min.css"
-    
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
     <!-- Nav bar -->
     <section id="navbar">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/Fitness/Pages/Home.html">Fitness Website</a>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Fitness Website</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link"  href="/Fitness/Pages/Home.html">Home</a>
+                            <a class="nav-link"  href="./Home.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Fitness/Pages/Profile.html">Profile</a>
+                            <a class="nav-link" href="./Profile.html">Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/Fitness/Pages/Exercise.html">Exercises</a>
+                            <a class="nav-link active" aria-current="page" href="./Exercise.html">Exercises</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"  href="/Fitness\Pages\BMI.html">BMI</a>
+                            <a class="nav-link"  href="./BMI.html">BMI</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Fitness/Pages/Calories.html">Calories</a>
+                            <a class="nav-link" href="./Calories.html">Calories</a>
                         </li>
                     </ul>
                 </div>
@@ -39,29 +38,82 @@
         </nav>
       </section>
 
-      <!-- Tabs -->
-       <section id="tab">
-        <ul class="nav nav-tabs ">
+      <!-- Tab -->
+      <section id="tab">
+        <ul class="nav nav-tabs justify-content-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/Fitness/Pages/Exercises/Ab.html">Abs</a>
+              <a class="nav-link active" aria-current="page" href="./Ab.html">Abs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Fitness/Pages/Exercises/Arm.html">Arms</a>
+              <a class="nav-link text-black-50" href="./Arm.html">Arms</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Fitness/Pages/Exercises/Chest.html">Chest</a>
+              <a class="nav-link text-black-50" href="./Chest.html">Chest</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Fitness/Pages/Exercises/Leg.html">Legs</a>
+              <a class="nav-link text-black-50" href="./Leg.html">Legs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/Fitness/Pages/Exercises/ShoulderBack.html">Shoulder & Back</a>
+                <a class="nav-link text-black-50" href="./ShoulderBack.html">Shoulder & Back</a>
               </li>
           </ul>
-       </section>
-      
+      </section>
 
-    <script src="/Fitness/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <!-- Body part -->
+      <section class="bg-dark-subtle" id="exercise">
+        <div class="container pt-5">
+            <div class="row">
+                
+                <div class="col-sm py-3">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="./pics/Abdominal Crunches.jpg" alt="Card image">
+                        <div class="card-img-overlay bg-black opacity-50 align-content-center text-center">
+                            <a href="./Abs/Crunches.html" class="text-white">
+                                <h2 class="display-1">Crunches</h2>
+                            </a>
+                        </div>
+                    </div>        
+                </div>
+                <div class="col-sm py-3">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="./pics/plank.jfif" alt="Card image">
+                        <div class="card-img-overlay bg-black opacity-50 align-content-center text-center">
+                            <a href="./Exercises/Arm.html" class="text-white">
+                                <h2 class="display-1">Plank</h2>
+                            </a>
+                        </div>
+                    </div>        
+                </div>
 
+            </div>
+        </div>
+        <div class="container pb-5">
+            <div class="row">
+                
+                <div class="col-sm py-3">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="./pics/Russian Twist.jfif" alt="Card image">
+                        <div class="card-img-overlay bg-black opacity-50 align-content-center text-center">
+                            <a href="./Exercises/Ab.html" class="text-white">
+                                <h2 class="display-1">Russian Twist</h2>
+                            </a>
+                        </div>
+                    </div>        
+                </div>
+                <div class="col-sm py-3">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="./pics/mountain climber.jfif" alt="Card image">
+                        <div class="card-img-overlay bg-black opacity-50 align-content-center text-center">
+                            <a href="./Exercises/Arm.html" class="text-white">
+                                <h2 class="display-1">Mountain Climber</h2>
+                            </a>
+                        </div>
+                    </div>        
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
